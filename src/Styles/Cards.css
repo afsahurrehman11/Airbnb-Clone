@@ -1,0 +1,38 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  margin: 50px 30px;
+  z-index: 1;
+}
+
+.inner-card img {
+  border-radius: 1rem;
+  width: 100%;
+  height: 250px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  line-height: 10px;
+  margin-bottom: 5px;
+}
+.top h2 {
+  font-weight: 600;
+}
+.rating {
+  display: flex;
+  align-items: center;
+}
+
+.property {
+  line-height: 20px;
+  font-weight: lighter;
+}
+
+.price {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,26 @@
+.lower-navbar {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .lower-navbar {
+    display: block;
+    position: sticky;
+    bottom: 0px;
+    width: 100%;
+    background-color: white;
+    z-index: 20;
+    height: 70px;
+  }
+  .sub-lower-navbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 50px;
+  }
+  .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: lighter;
+  }
+}
