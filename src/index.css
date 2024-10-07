@@ -1,0 +1,25 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Ensuring mobile responsiveness */
+html {
+  font-size: 62.5%; /* 1rem = 10px for easy scaling */
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 55%; /* Smaller font size for mobile devices */
+  }
+}

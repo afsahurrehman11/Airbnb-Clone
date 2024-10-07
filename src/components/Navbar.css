@@ -1,0 +1,32 @@
+.category-nav {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 1rem;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.category-nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.category-nav li {
+  margin-right: 1.5rem;
+}
+
+.category-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 50px;
+  background-color: #f9f9f9;
+}
+
+.category-nav a:hover {
+  background-color: #eee;
+}
