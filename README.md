@@ -2,6 +2,8 @@
 
 A full-stack application built with the MERN stack (MongoDB, Express.js, React, Node.js) for browsing, booking, and managing property listings.
 
+---
+
 ## Features
 - MongoDB database with Mongoose for data storage
 - User authentication with JWT and bcrypt
@@ -15,6 +17,8 @@ A full-stack application built with the MERN stack (MongoDB, Express.js, React, 
 - Responsive frontend with signup/login pages
 - State management using JWT in localStorage
 - Clean styling and user feedback
+
+---
 
 ## Technologies
 - **Frontend**: React, React Router, Axios
@@ -67,7 +71,14 @@ The application supports three user roles, each with specific capabilities:
 - **GET /api/host/bookings**: View host bookings
 - **GET /api/admin/listings**: View all listings (admin only)
 
+---
+
 ## Notes
 - Requires MongoDB setup
 - Protected routes redirect to login
 - User feedback on actions
+
+  
+---
+
+
