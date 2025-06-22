@@ -28,7 +28,7 @@ A full-stack application built with the MERN stack (MongoDB, Express.js, React, 
 
 ---
 
-## 👥 Roles and Permissions
+## Roles and Permissions
 
 The application supports three user roles, each with specific capabilities:
 
